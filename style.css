@@ -1,0 +1,139 @@
+	
+
+.box{
+	border: 2px solid black;
+	margin: 5px;}
+
+
+h1{
+	text-align: center;
+}
+.title{
+	border:2px solid black;
+	padding: 3px;
+	width: 30%;
+	font-size: 24px;
+	text-align: center;
+}
+.content{
+	padding: 5px;
+}
+.first{
+	background-color: green;
+}
+.second{
+	background-color: blue;
+}
+.third{
+	background-color: gray;
+}
+
+@media(min-width: 992px)
+{
+	.row{
+		width: 100%;
+	}
+		.one{
+	width: 32.3%;
+	float: left;
+	background-color: lightblue;
+	
+
+	}
+.two{
+	width: 32.3%;
+	float: left;
+	background-color: lightgray;
+	
+}
+.three{
+	width: 32.3%;
+	float: left;
+	background-color: lightgreen;
+	
+}
+h2{ margin: 0px;
+	
+}
+.first,.second,.third{
+	position: relative;
+	top: 0;
+	right: -70%;
+}
+
+}
+@media(max-width: 991px) and (min-width: 768px){
+	.row{
+		width: 100%;
+	}
+		.one{
+	width: 48%;
+	float: left;
+	background-color: lightblue;
+	
+
+	}
+.two{
+	width: 48%;
+	float: left;
+	background-color: lightgray;
+	
+}
+.three{
+	width: 97%;
+	float: left;
+	background-color: lightgreen;
+	
+}
+h2{ margin: 0px;
+	
+}
+.first,.second,.third{
+	position: relative;
+	top: 0;
+	right: -70%;
+}
+
+
+}
+@media(max-width: 767px){
+	.row{
+		width: 100%;
+	}
+		.one{
+	width: 98%;
+	float: left;
+	background-color: lightblue;
+	
+
+	}
+.two{
+	width: 98%;
+	float: left;
+	background-color: lightgray;
+	
+}
+.three{
+	width: 98%;
+	float: left;
+	background-color: lightgreen;
+	
+}
+h2{ margin: 0px;
+	
+}
+.first,.second,.third{
+	position: relative;
+	top: 0;
+	right: -70%;
+}
+
+}
+		
+		 
+		
+				*{
+	box-sizing: border-box;
+}
+		
+	
